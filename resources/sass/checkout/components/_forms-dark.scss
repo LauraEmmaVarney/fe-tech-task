@@ -1,0 +1,16 @@
+// Forms
+.input-group-text {
+    color: $white;
+    background-color:$input-bg;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.input-group-text i {
+    color:$white;
+}
+
+.adyen-checkout__input {
+    background: transparent;
+}

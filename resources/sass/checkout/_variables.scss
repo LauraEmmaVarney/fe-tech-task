@@ -1,0 +1,70 @@
+// Bootstrap overrides variables
+$body-bg:                   #fafafa;
+$body-color:                #666666;
+
+// Colors
+$primary:                   #105fbd;
+$secondary:                 #b3b3b3;
+$white:                     #fff;
+$muted:                     #b7b7b7;
+
+$theme-colors: (
+    "muted": $muted,
+    "soft-primary": rgba($primary, .2)
+);
+
+// Typography
+$font-size-base:              .9rem;
+$font-family-base:           'Roboto', sans-serif;
+$small-font-size:             90%;
+$text-muted:                  $muted;
+
+// Components
+$border-color:              #efefef;
+
+// Cards
+$card-cap-bg:                       #fff;
+$card-cap-color:                    #666666;
+$card-border-color:                 $border-color;
+$card-spacer-y:                     1.75rem;
+$card-spacer-x:                     1.75rem;
+
+// Buttons
+$btn-padding-y:                         1rem;
+$btn-padding-x:                         1.5rem;
+$btn-font-size:                         .8rem;
+$btn-focus-box-shadow:                  0;
+$btn-font-weight:                       500;
+
+// Forms
+$input-btn-border-width:                2px;
+$input-border-width: 2px;
+$input-border-color: #f0f0f0;
+$input-btn-padding-y:                   .85rem;
+$input-btn-padding-x:                   1.15rem;
+$input-focus-box-shadow:                0px;
+$input-btn-focus-box-shadow:            none;
+$input-focus-border-color:              #dddddd;
+$input-placeholder-color:               #b2b2b2;
+$input-font-size:                       12px;
+$label-margin-bottom:                   .9rem;
+
+// Tables
+$table-head-color:                      #b3b3b3;
+$table-head-bg:                         $white;
+$table-border-width:                    0;
+
+// Badges
+$badge-font-size:                       85%;
+
+// Tooltips
+$tooltip-bg:                            #222222;
+$tooltip-border-radius:                 2px;
+
+// Vue Select Variables
+$vs-state-active-bg:                    $primary;
+$vs-state-active-color:                 $white;
+$vs-dropdown-box-shadow:                none;
+$vs-border-width:                       0;
+$vs-component-placeholder-color:        $input-placeholder-color;
+$vs-search-colour:                      #000;

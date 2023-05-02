@@ -1,0 +1,9 @@
+#footer-main {
+    background-color:$white;
+    flex-grow: 1;
+    max-height:150px;
+
+    @include media-breakpoint-up(md) {
+        max-height:100px;
+    }
+}

@@ -1,0 +1,64 @@
+@import "~bootstrap-vue/dist/bootstrap-vue.css";
+
+// Icon width
+.header-checkout-step {
+    i {
+        width: 65px;
+        height: 65px;
+        font-size: 1.5rem;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
+
+// Buttons
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+
+// Tables
+.table thead th {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+// Checkout custom css
+.payment-method-item{
+    cursor: pointer;
+}
+
+
+// Badges
+.badge {
+    letter-spacing: 1.5px;
+}
+
+.table-cart td,
+.table-cart th {
+    padding: 1rem 1.5rem;
+}
+
+.table-cart tr.row-product td {
+    font-size: 12px;
+}
+
+.vs__dropdown-toggle {
+    border: 0px !important;
+    height:42px;
+    margin-top:-10px;
+}
+
+.vs__clear {
+    display:none;
+}
+
+select.form-control {
+    text-indent: $input-padding-x;
+}
+
+.main-checkout {
+    flex-grow: 1;
+}

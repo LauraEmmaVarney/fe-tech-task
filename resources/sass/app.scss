@@ -1,0 +1,23 @@
+// Custom bootstrap variable overrides
+@import "checkout/variables";
+
+// Bootstrap and its default variables
+@import "checkout/bootstrap/bootstrap";
+
+// Your style
+@import "checkout/general";
+@import "checkout/components/card";
+@import "checkout/components/footer";
+@import "checkout/components/forms";
+@import "checkout/components/header";
+@import "checkout/components/vue-select";
+@import "checkout/components/buttons";
+
+// Vendor Styles
+@import "checkout/vendor/adyen";
+@import "checkout/vendor/swal";
+@import "checkout/vendor/vue-select";
+
+// Custom Utilities
+@import "checkout/utilities/border";
+@import "checkout/utilities/typography";

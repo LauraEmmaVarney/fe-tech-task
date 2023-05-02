@@ -1,0 +1,37 @@
+.adyen-checkout__label__text {
+    font-size:14.4px;
+    color:$input-color;
+    font-weight: 400;
+    margin:11px 0;
+}
+
+.adyen-checkout__label--focused .adyen-checkout__label__text  {
+    font-size:14.4px;
+    color:$input-color;
+    font-weight: 400;
+    margin:11px 0;
+}
+
+.adyen-checkout__input {
+    background-color: $input-bg;
+}
+
+.adyen-checkout__input, .adyen-checkout__input:hover {
+    border-radius:0.25rem;
+    border:2px solid $input-border-color;
+    height:49px;
+    padding-left:16px;
+}
+
+.adyen-checkout__input--focus, .adyen-checkout__input--focus:hover {
+    box-shadow: none;
+    border:2px solid $input-focus-border-color;
+}
+
+.adyen-checkout__applepay__button {
+    -webkit-appearance: -apple-pay-button !important;
+    -apple-pay-button-style: white-outline !important;
+    width:100% !important;
+    border-radius: unset;
+    height:48px !important;
+}
