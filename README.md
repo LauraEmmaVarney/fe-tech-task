@@ -17,12 +17,12 @@ Write some automated tests for the code you've written. You do not need to have 
 ### 1. Install PHP
 The code does need PHP8 in order to run. If you are on a Mac, the built-in version of PHP should suffice!
 
-### 2. Install Composer 
-Laravel uses composer to manage dependencies, as such you'll need to download composer and install this project's dependencies.
+### 2. Install Laravel dependencies 
+Laravel uses composer to manage dependencies, as such you'll need to install this project's dependencies by running:
 
-Please follow the steps listed on https://getcomposer.org/download/ to download composer.
-
-Once installed, simply run `php composer.phar install`.
+```
+php composer.phar install
+```
 
 ### 3. Run the application
 
