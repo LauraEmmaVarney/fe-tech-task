@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutBasket component tests check against jest snapshot test 1`] = `
+<base-card-stub>
+  <div
+    class="row align-items-center"
+  >
+    <div
+      class="col-auto"
+    >
+      <i
+        class="fal fa-shopping-basket text-primary fa-2x"
+      />
+    </div>
+     
+    <div
+      class="col pl-0"
+    >
+      <h5
+        class="mb-0 font-weight-normal"
+      >
+        Your Items
+      </h5>
+    </div>
+  </div>
+  <table
+    class="table small mb-0 table-cart"
+  >
+    <thead
+      class="thead-light"
+    >
+      <tr>
+        <th>
+          Item
+        </th>
+         
+        <th>
+          Price
+        </th>
+         
+        <th
+          class="text-right"
+        >
+          Quantity
+        </th>
+         
+        <th
+          class="text-right"
+        >
+          Total
+        </th>
+      </tr>
+    </thead>
+     
+    <tbody>
+      <tr
+        class="row-product"
+      >
+        <td>
+          Test Product
+        </td>
+         
+        <td>
+          $5
+        </td>
+         
+        <td
+          class="text-right"
+        >
+          1
+        </td>
+         
+        <td
+          class="text-right"
+        >
+          $5
+        </td>
+      </tr>
+      <tr
+        class="row-product"
+      >
+        <td>
+          Test Product 2
+        </td>
+         
+        <td>
+          $1.45
+        </td>
+         
+        <td
+          class="text-right"
+        >
+          2
+        </td>
+         
+        <td
+          class="text-right"
+        >
+          $2.9
+        </td>
+      </tr>
+       
+      <tr
+        class="border-top border-1"
+      >
+        <td />
+         
+        <td />
+         
+        <td
+          class="text-right"
+        >
+          Total:
+        </td>
+         
+        <td
+          class="text-right"
+        >
+          $ 7.9
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</base-card-stub>
+`;

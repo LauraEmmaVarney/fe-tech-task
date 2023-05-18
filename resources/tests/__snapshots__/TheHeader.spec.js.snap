@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheHeader component tests check against jest snapshot test 1`] = `
+<header
+  class="container header-checkout my-5"
+  role="banner"
+>
+  <div
+    class="row mb-2"
+  >
+    <div
+      class="col-12 col-xl-3 my-xl-auto text-center text-xl-left"
+    >
+      <h3
+        class="mb-0 animated fadeInDown faster"
+      >
+        
+                Test Store
+            
+      </h3>
+    </div>
+     
+    <div
+      class="col-12 col-md-12 col-lg-10 col-xl-8 ml-xl-auto mx-xl-0 mx-auto my-auto px-0 pt-5 pt-xl-0 d-none d-md-block"
+    >
+      <div
+        class="row"
+      >
+        <navbaritem-stub
+          activestep="1"
+          icon="fa-user-circle"
+          label="Your Details"
+          step="1"
+        />
+         
+        <navbaritem-stub
+          activestep="1"
+          icon="fa-credit-card"
+          label="Card Details"
+          step="2"
+        />
+         
+        <navbaritem-stub
+          activestep="1"
+          icon="fa-check"
+          label="Success!"
+          step="3"
+        />
+      </div>
+    </div>
+  </div>
+</header>
+`;

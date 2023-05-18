@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBarItem component tests check against jest snapshot test 1`] = `
+<div
+  class="col-4 header-checkout-step animated fadeInDown faster"
+>
+  <div
+    class="row align-items-center"
+  >
+    <div
+      class="col-md-5 text-center text-md-right"
+    >
+      <i
+        class="border border-3 rounded-circle p-3 fal fa-2x fa-user-circle border-primary text-primary"
+      />
+    </div>
+     
+    <div
+      class="col-md-7 text-center text-md-left"
+    >
+      <span
+        class="mt-2 mt-md-0 badge small font-weight-normal text-uppercase px-0 text-primary"
+      >
+        
+                Step 1
+            
+      </span>
+       
+      <p
+        class="mb-0 d-none d-md-block"
+      >
+        Your Details
+      </p>
+    </div>
+  </div>
+</div>
+`;

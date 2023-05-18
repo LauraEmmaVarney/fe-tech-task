@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseCard component tests check against jest snapshot test 1`] = `
+<div
+  class="card w-100 animated fadeInUp faster"
+>
+  <div
+    class="card-header"
+  >
+    <div
+      class="row align-items-center"
+    >
+      Your Details
+    </div>
+  </div>
+   
+  <div
+    id="collapseOrder"
+  >
+    <div
+      class="card-body p-0"
+    />
+     
+    <div
+      class="card-footer"
+    />
+  </div>
+</div>
+`;

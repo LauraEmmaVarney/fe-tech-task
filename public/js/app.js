@@ -36766,12 +36766,9 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
 __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js");
-
 $(document).mouseup(function (e) {
   var container = $("#filter-card");
-
   if (!container.is(e.target) && container.has(e.target).length === 0 && $(e.target).attr("id") !== "filter-button") {
     container.removeClass("show");
   }
@@ -36792,18 +36789,14 @@ $('body').on('show.bs.modal', 'div.modal.remote-modal', function (e) {
 
 window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 window.adyenFingerprint = document.createElement("input");
-
 try {
   window.Popper = __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js")["default"];
   window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
-
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 } catch (e) {}
-
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 var token = document.head.querySelector('meta[name="csrf-token"]');
-
 if (token) {
   window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
 }
@@ -36817,7 +36810,7 @@ if (token) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/liam/Projects/FEDevTest/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/laurav/Code/Vue/fe-tech-task-1/resources/js/app.js */"./resources/js/app.js");
 
 
 /***/ })

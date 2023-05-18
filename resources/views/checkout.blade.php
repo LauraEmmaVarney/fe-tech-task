@@ -21,13 +21,5 @@
     <div id="app"></div>
 </body>
 
-<script>
-    window.tebex = {
-        store : {
-            name : 'Test Store'
-        }
-    }
-</script>
-
 <script src="{{ mix("js/checkout.js") }}"></script>
 </html>
